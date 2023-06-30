@@ -60,6 +60,7 @@ function App() {
               temp={json.main?.temp}
               humidity={json.main?.humidity}
               wspeed={json.wind?.speed}
+              desc={json.weather[0]?.main}
             />
           )}
         </div>
